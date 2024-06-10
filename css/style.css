@@ -386,6 +386,7 @@ body {
     width: calc(100% - 60px);
     margin: 0 auto;
 
+    gap: 90px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -527,8 +528,12 @@ body {
     width: 32%;
 }
 
+.section01 .inner .right {
+    width: 62%;
+}
+
 .section01 .inner .left {
-    width: 32%;
+    width: 37%;
 }
 
 .section01 .mb_inner .item_wrap .item .text .date-locate {
@@ -546,7 +551,7 @@ body {
 .section01 .left figure {
     max-width: 445px;
     width: 100%;
-    height: 45vw;
+    height: 630px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.25);
@@ -1030,6 +1035,11 @@ body {
         height: 57vw;
     } */
 
+    /* section01 */
+    .section01 .left figure {
+        height: 48vw;
+    }
+
     /* section02 */
     .swiper-slide {
         width: 60%;
@@ -1095,7 +1105,7 @@ body {
     }
 
     .section01 .inner .left figure {
-        height: 45vw;
+        height: 42vw;
     }
 }
 
