@@ -420,7 +420,7 @@ body {
 .section01 {
     margin-bottom: 15rem;
     position: relative;
-    padding: 15rem 0;
+    padding: 0 0 15rem 0;
 }
 
 .section01 .mobile {
@@ -501,7 +501,7 @@ body {
     padding: 3rem 3.5rem;
 
     box-shadow: 0 5px 20px rgb(0, 15, 67, 0.1);
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     left: 25%;
 
     margin-bottom: 3rem;
@@ -1171,31 +1171,17 @@ body {
         display: none;
     }
 
-    /* section01 */
-    /* .section01 .left figure {
-        height: 57vw;
-    } */
-
-    /* section01 */
-    .section01 .left figure {
-        height: 48vw;
-    }
-
-    /* section02 */
+    /* main */
     .swiper-slide {
         width: 60%;
     }
 
-    .mySwiper .swiper-button-prev,
-    .mySwiper .swiper-rtl .swiper-button-next {
-        left: 18%;
+     /* section01 */
+     .section01 .left figure {
+        height: 48vw;
     }
 
-    .mySwiper .swiper-button-next,
-    .mySwiper .swiper-rtl .swiper-button-prev {
-        right: 18%;
-    }
-
+    /* section02 */
     .section02 .inner .item_wrap .main_page {
         height: 535px;
     }
